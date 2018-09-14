@@ -1,0 +1,25 @@
+.text {
+    margin: 50px;
+}
+
+.ui .button {
+    margin: 10px;
+}
+
+#delete {
+    display: inline;
+}
+
+.ui.items > .item > .image:only-child > img {
+    height: 200px;
+    width: 175px;
+    
+}
+
+.post-info {
+    display: inline;
+}
+
+#about {
+    margin: 100px;
+}
