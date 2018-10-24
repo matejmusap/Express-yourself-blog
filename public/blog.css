@@ -1,25 +1,46 @@
+@import url("https://fonts.googleapis.com/css?family=Mali:400,700");
 .text {
-    margin: 50px;
+  margin: 10vh;
 }
 
 .ui .button {
-    margin: 10px;
+  margin: 10px;
 }
 
 #delete {
-    display: inline;
+  display: inline;
 }
 
 .ui.items > .item > .image:only-child > img {
-    height: 200px;
-    width: 175px;
-    
+  height: 200px;
+  width: 175px;
 }
 
 .post-info {
-    display: inline;
+  display: inline;
 }
 
 #about {
-    margin: 100px;
+  margin: 25vh;
+  padding: 8vh;
+  font-size: 3vh;
+  font-family: "Mali", cursive;
+  color: blue;
+  border: 2px solid khaki;
+  text-align: center;
+}
+
+.post {
+  display: flex;
+  flex-direction: row;
+}
+
+.blog {
+  display: flex;
+  flex-direction: column;
+}
+
+.post-image {
+  width: 45%;
+  height: 45%;
 }
